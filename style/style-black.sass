@@ -1,0 +1,249 @@
+*
+    margin: 0
+    padding: 0
+body
+    background: #1E1E1E
+
+.container
+    max-width: 1440px
+
+.nav
+    &_menu
+
+        padding: 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+        list-style: none
+
+        &_item
+            height: 50px
+            display: flex
+            border-right: 2px solid #fff
+            align-content: center
+            input
+                position: relative
+                margin-top: 14px
+                z-index: -1
+                &::before
+                    padding-top: 22px
+                    width: 64px
+                    height: 68px
+                    position: absolute
+                    left: 378px
+                    content: url('../icons/search.png')
+                    position: absolute
+            &_shop
+                margin-top: 12px
+                width: 163px
+                font-weight: 400
+                font-size: 22px
+                text-align: center
+                color: #fff
+                text-decoration: none
+            &_discover
+                margin-top: 12px
+                width: 163px
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                text-align: center
+                color: #fff
+                text-decoration: none
+            &_company
+                width: 394px
+                font-style: normal
+                font-weight: 400
+                font-size: 32px
+                text-align: center
+                text-transform: uppercase
+                letter-spacing: 0.64em
+                color: #fff
+                text-decoration: none
+
+            &_cart
+                margin-top: 12px
+                width: 163px
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                line-height: 32px
+                text-align: center
+                color: #fff
+                text-decoration: none
+            &_social
+                padding: 14px 14px
+                img
+                    width: 22px
+                    height: 22px
+                    display: flex
+                    justify-content: center
+
+        &_form
+            margin: 0 12px
+            width: 333px
+            height: 29px
+            background: #E7E7E7
+            border: 1px solid #000000
+            border-radius: 48px
+            font-weight: 400
+            font-size: 22px
+            text-align: center
+            color: #000000
+
+.main
+    display: flex
+    position: relative
+    justify-content: space-between
+    height: 595px
+    margin-top: 163px
+    &_cards
+        display: inline-block
+
+        align-items: center
+        &_card1
+            margin-bottom: 52px
+            width: 111px
+            height: 139px
+            left: 52px
+            top: 210px
+            background: linear-gradient(180deg, #675E9D 0%, #9D5E84 100%)
+            border: 1px solid #FFFFFF
+        &_card2
+            width: 111px
+            height: 139px
+            left: 51px
+            top: 401px
+            background: linear-gradient(180deg, rgba(103, 94, 157, 0.5) 0%, rgba(157, 94, 132, 0.5) 100%)
+            border: 1px solid rgba(255, 255, 255, 0.7)
+        &_text
+            margin: 33px auto
+            margin-left: 35px
+            color: #fff
+    &_photo
+        margin-left: 118px
+        width: 475px
+        height: 591px
+        background: linear-gradient(180deg, #675E9D 0%, #9D5E84 100%)
+        border: 1px solid #FFFFFF
+        box-shadow: 7px 13px 0px rgba(255, 255, 255, 0.75)
+        &_span
+            display: block
+            margin-left: 56px
+            font-weight: 400
+            font-size: 32px
+            line-height: 200px
+            align-items: center
+            text-align: center
+            letter-spacing: 0.64em
+            color: #FFFFFF
+.name
+    margin-left: 143px
+    width: 445px
+
+    &_title
+        display: inline-block
+        width: 443px
+        font-style: normal
+        font-weight: 400
+        font-size: 22px
+        line-height: 32px
+        color: #fff
+        margin-bottom: 17px
+    &_btn
+        &_person
+            width: 443px
+            height: 68px
+            background: #000
+            border: 1px solid #FFFFFF
+            margin-bottom: 22px
+            color: #fff
+        &_add
+            position: relative
+            width: 443px
+            height: 68px
+            background: #fff
+            border: 1px solid #000000
+            font-style: normal
+            font-weight: 400
+            font-size: 22px
+            line-height: 32px
+            text-align: center
+            color: #000
+            margin-bottom: 28px
+            display: inline-block
+            text-decoration: none
+            outline: none
+            z-index: -1
+            &:before
+                padding-top: 22px
+                width: 64px
+                height: 68px
+                position: absolute
+                content: url("../icons/plus.png")
+                left: 378px
+                bottom: -1px
+                background: #000
+                border: 1px solid #fff
+
+        &_material
+            padding-left: 140px
+            width: 443px
+            height: 68px
+            background: #000
+            border: 1px solid #fff
+            margin-bottom: 22px
+            color: #fff
+            img
+                padding-left: 150px
+        &_dimens
+            padding-left: 140px
+            width: 443px
+            height: 68px
+            background: #000
+            border: 1px solid #fff
+            color: #fff
+            img
+                padding-left: 130px
+
+    &_comment
+        width: 443px
+        display: inline-block
+        font-style: normal
+        font-weight: 400
+        font-size: 22px
+        line-height: 32px
+        color: #fff
+        margin-bottom: 75px
+
+.footer
+
+    height: 50px
+    &_menu
+
+        margin-top: 173px
+        display: flex
+
+        &_item
+            width: 163px
+            height: 50px
+            margin: 0
+            text-align: center
+            list-style: none
+            border-right: 2px solid white
+            color: #000
+            &:first-child
+                background: #fff
+                text-align: center
+                a
+                    color: #000
+            &:last-child
+                border-right: none
+
+            a
+                font-style: normal
+                font-weight: 400
+                font-size: 22px
+                text-align: center
+                color: #fff
+                text-decoration: none
